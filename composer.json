@@ -12,10 +12,16 @@
     "JSON-LD"
   ],
   "license": "MIT",
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/goaround/structured-data.git"
+        }
+  ],
   "require": {
     "php": "^7.2 || ^8.0",
     "ext-dom": "*",
-    "brick/structured-data": "~0.1.0"
+    "brick/structured-data": "dev-master"
   },
   "autoload": {
     "psr-4": {
